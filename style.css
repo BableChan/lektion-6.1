@@ -12,7 +12,7 @@ body{
     align-content: center;
 }
 img{
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;
     justify-self: center;
@@ -22,9 +22,45 @@ header{
     border-radius: 7px; 
     text-align: center;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 h2{
     text-align: center;
+}
+#t1{
+    color: rgb(255, 0, 0, 0.5);
+}
+#t2{
+    color: rgb(255, 77, 0, 0.5);
+}
+#t3{
+    color: rgb(255, 167, 0, 0.5);
+}
+#t3{
+    color:rgb(255, 255, 0, 0.5);
+}
+#t4{
+    color: rgb(153, 255, 0, 0.5);
+}
+#t5{
+    color: rgb(2, 255, 2, 0.5);
+}
+#t6{
+    color:rgb(0, 255, 255, 0.5);
+}
+#t7{
+    color: rgb(0, 157, 255, 0.5);
+}
+#t8{
+    color:rgb(70, 43, 226, 0.5);
+}
+#t9{
+    color: rgb(132, 0, 255, 0.5);
+}
+#t10{
+    color: rgb(225, 130, 238, 0.5);
 }
 nav{
     border: 2px solid black;
