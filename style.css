@@ -1,0 +1,56 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 20vh 63vh 17vh;
+    gap: 10px;
+    background-color: lightgreen;
+}
+#imgborder{
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: white;
+    align-content: center;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-self: center;
+}
+header{
+    border: 2px solid black;
+    border-radius: 7px; 
+    text-align: center;
+    background-color: white;
+}
+h2{
+    text-align: center;
+}
+nav{
+    border: 2px solid black;
+    border-color: black;
+    border-radius: 7px;
+    background-color: white;
+}
+main{
+    border: 2px solid black;
+    border-color: black;
+    border-radius: 7px;
+    background-color:lightyellow;
+    /* overflow-y: scroll;  */
+}   
+article{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(255, 223, 253);
+}
+h3{
+    text-align: center;
+}
+footer{
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    background-color: white;
+}
